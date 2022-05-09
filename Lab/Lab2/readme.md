@@ -1,4 +1,5 @@
 ![screenshot](https://github.com/Subash1000/wt-lab-assignment/blob/d0cf5d12a3121706d29453a0933296f5dd12c69b/Lab/Lab2/table.png)
+![screenshot](https://github.com/Subash1000/wt-lab-assignment/blob/main/Lab/Lab2/border.png)
 # Terms and their meanings
 # A: Font
 font-size : It sets size of the font (i.e individual letter size).
