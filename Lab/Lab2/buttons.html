@@ -1,52 +1,590 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Buttons</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<style type="text/css">
-		
-	</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-	
-	<h1>Buttons</h1>
-	<div>
-	<span>Default &nbsp;</span>
-<a href="a" class="btn">+</a>
-<a href="a" class="btn-primary">Button</a>
-<a href="a" class="btn-secondary">Button</a>
-<a href="a" class="btn-destructive">Button</a>
-</div>
-<div>
-	<br>
-	<span>Hover &nbsp;&nbsp;&nbsp;</span>
-	<a href="a" class="btn">+</a>
-<a href="a" class="btn-primary">Button</a>
-<a href="a" class="btn-secondary">Button</a>
-<a href="a" class="btn-destructive">Button</a>
+    <p>Buttons</p>
+    <section>
 
-</div>
-<div>
-	<br>
-	<span>Press &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-		<a href="a" class="btn">+</a>
-<a href="a" class="btn-primary">Button</a>
-<a href="a" class="btn-secondary">Button</a>
-<a href="a" class="btn-destructive">Button</a>
-	
-</div>
-<div>
-	<br>
-	<span>Disabled</span>
-		<a href="a" class="btn">+</a>
-<a href="a" class="btn-primary">Button</a>
-<a href="a" class="btn-secondary">Button</a>
-<a href="a" class="btn-destructive">Button</a>
-</div>
-
-
-</style>
+        <div>
+            <span>&nbsp;</span>
+            <span class="al">Default</span>
+            <span class="al">Hover</span>
+            <span class="al">Press</span>
+            <span class="al">Disabled</span>
+            <span>&nbsp;</span>
+            <span class="al">Default</span>
+            <span class="al">Hover</span>
+            <span class="al">Press</span>
+            <span class="al">Disabled</span>
+        </div>
+        <div>
+            <span class="al">&nbsp;</span>
+            <a href="#" class="btn btnp btn-plus">+</a>
+            <a href="#" class="btn btnp btn-plus-hover">+</a>
+            <a href="#" class="btn btnp btn-plus-active">+</a>
+            <a href="#" class="btn btnp btn-plus-disabled">+</a>
+            <span class="al">&nbsp;</span>
+            <span class="al">&nbsp;</span>
+            <span class="al">&nbsp;</span>
+            <span class="al">&nbsp;</span>
+            <span class="al">&nbsp;</span>
+        </div>
+        <div>
+            <span class="align">Primary</span>
+            <span>
+            <a href="#" class="btn btnn btn-primary">Button</a>
+            <a href="#" class="btn btnn btn-primary-hover">Button</a>
+            <a href="#" class="btn btnn btn-primary-active">Button</a>
+            <a href="#" class="btn btnn btn-primary-disabled">Button</a>
+            <span>&nbsp;</span>
+            <a href="#" class="btn btnn1 btn-primary1">Button</a>
+            <a href="#" class="btn btnn1 btn-primary1-hover">Button</a>
+            <a href="#" class="btn btnn1 btn-primary1-active">Button</a>
+            <a href="#" class="btn btnn1 btn-primary1-disabled">Button</a>
+           </span>
+        </div>
+        <div>
+            <span class="align">Secondary</span>
+            <span>
+            <a href="#" class="btn btnn btn-secondary">Button</a>
+            <a href="#" class="btn btnn btn-secondary-hover">Button</a>
+            <a href="#" class="btn btnn btn-secondary-active">Button</a>
+            <a href="#" class="btn btnn btn-secondary-disabled">Button</a>
+            <span>&nbsp;</span>
+            <a href="#" class="btn btnn1 btn-secondary1">Button</a>
+            <a href="#" class="btn btnn1 btn-secondary1-hover">Button</a>
+            <a href="#" class="btn btnn1 btn-secondary1-active">Button</a>
+            <a href="#" class="btn btnn1 btn-secondary1-disabled">Button</a>
+            </span>
+        </div>
+        <div>
+            <span class="align">Destructive</span>
+            <span>
+            <a href="#" class="btn btnn btn-destructive">Button</a>
+            <a href="#" class="btn btnn btn-destructive-hover">Button</a>
+            <a href="#" class="btn btnn btn-destructive-active">Button</a>
+            <a href="#" class="btn btnn btn-destructive-disabled">Button</a>
+            <span>&nbsp;</span>
+            <a href="#" class="btn btnn1 btn-destructive1">Button</a>
+            <a href="#" class="btn btnn1 btn-destructive1-hover">Button</a>
+            <a href="#" class="btn btnn1 btn-destructive1-active">Button</a>
+            <a href="#" class="btn btnn1 btn-destructive1-disabled">Button</a>
+            </span>
+        </div>        
+        <div>
+            <span class="align">Primary</span>
+            <span id="bg">
+            <a href="#" class="btn btnn btn-primarybg">Button</a>
+            <a href="#" class="btn btnn btn-primarybg-hover">Button</a>
+            <a href="#" class="btn btnn btn-primarybg-active">Button</a>
+            <a href="#" class="btn btnn btn-primarybg-disabled">Button</a>
+            <span class="align">Secondary</span>
+            <a href="#" class="btn btnn1 btn-secondarybg">Button</a>
+            <a href="#" class="btn btnn1 btn-secondarybg-hover">Button</a>
+            <a href="#" class="btn btnn1 btn-secondarybg-active">Button</a>
+            <a href="#" class="btn btnn1 btn-secondarybg-disabled">Button</a>
+            </span>
+        </div>
+    </section>
+    
 </body>
 </html>
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+.btn
+{
+    text-decoration: none;
+    margin: 10px 2px;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+    cursor: pointer;
+}
+
+.btnp
+{
+    padding: 5px 15px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.btn-plus
+{
+    border-bottom: inset #26BE96 ;
+    background-color: #26BE96;
+}
+.btn-plus:hover
+{
+    border-bottom: inset #229B86;
+}
+.btn-plus:active
+{
+    background-color: #67D2B6;
+    border-bottom: inset #67D2B6;
+}
+.btn-plus:disabled
+{
+    background-color: #A9E5D5;
+    border-bottom: inset #A9E5D5;
+}
+
+.btn-plus-hover
+{
+    border-bottom: inset #229B86;
+    background-color: #26BE96;
+}
+.btn-plus-active
+{
+    border-bottom: inset #67D2B6;
+    background-color: #67D2B6;
+}
+.btn-plus-disabled
+{
+    border-bottom: inset #A9E5D5;
+    background-color: #A9E5D5;
+}
+
+
+.btnn
+{
+    border-radius: 7px;
+    padding: 10px 37px;
+}
+.btn-primary
+{
+    border-bottom: inset #26BE96;
+    background-color: #26BE96;
+    color: #D2F1E9;
+}
+.btn-primary:hover
+{
+    border-bottom: inset #229B86;
+
+}
+.btn-primary:active
+{
+    background-color: #67D2B6;
+    border-bottom: inset #67D2B6;
+    color: #FAFEFD;
+}
+.btn-primary:disabled
+{
+    background-color: #A9E5D5;
+    border-bottom: inset #A9E5D5;
+    color: #FCFEFE;
+}
+
+.btn-primary-hover
+{
+    border-bottom: inset #229B86;
+    background-color: #26BE96;
+    color: #D2F1E9;
+
+}
+.btn-primary-active
+{
+    border-bottom: inset #67D2B6;
+    background-color: #67D2B6;
+    color: #FAFEFD;
+}
+.btn-primary-disabled
+{
+    border-bottom: inset #A9E5D5;
+    background-color: #A9E5D5;
+    color: #FCFEFE;
+}
+
+
+
+
+.btn-secondary
+{
+    border-bottom: inset #E5EBED;
+    background-color: #E5EBED;
+    color: #7698A2;
+}
+.btn-secondary:hover
+{
+    border-bottom: inset #9FB7BE;
+}
+.btn-secondary:active
+{
+    background-color: #EDF1F3;
+    border-bottom: inset #EDF1F3;
+    color: #9CB5BC;
+}
+.btn-secondary:disabled
+{
+    background-color: #F5F7F8;
+    border-bottom: inset #F5F7F8;
+    color: #C3D2D6;
+}
+
+
+.btn-secondary-hover
+{
+    border-bottom: inset #9FB7BE;
+    background-color: #E5EBED;
+    color: #7698A2;
+}
+.btn-secondary-active
+{
+    border-bottom: inset #EDF1F3;
+    background-color: #EDF1F3;
+    color: #9CB5BC;
+}
+.btn-secondary-disabled
+{
+    border-bottom: inset #F5F7F8;
+    background-color: #F5F7F8;
+    color: #C3D2D6;
+}
+
+
+
+.btn-destructive
+{
+    border-bottom: inset #EE8363;
+    background-color: #EE8363;
+    color: #FDEEEB;
+}
+.btn-destructive:hover
+{
+    border-bottom: inset #BE684F;
+}
+.btn-destructive:active
+{
+    background-color: #F4A892;
+    border-bottom: inset #F4A892;
+    color: #FEF6F3;
+}
+.btn-destructive:disabled
+{
+    background-color: #F9CEC1;
+    border-bottom: inset #F9CEC1;
+    color: #F9CEC1;
+}
+
+
+.btn-destructive-hover
+{
+    border-bottom: inset #BE684F;
+    background-color: #EE8363;
+    color: #FDEEEB;
+}
+.btn-destructive-active
+{
+    border-bottom: inset #F4A892;
+    background-color: #F4A892;
+    color: #FEF6F3;
+}
+.btn-destructive-disabled
+{
+    border-bottom: inset #F9CEC1;
+    background-color: #F9CEC1;
+    color: #FFFEFE;
+}
+
+
+.btnn1
+{
+    border-radius: 7px;
+}
+
+
+.btn-primary1
+{
+    border:  solid 2px #1DBB92;
+    padding: 9px 36px;
+    background-color: #FFFFFF;
+    color: #15B98F;
+}
+.btn-primary1:hover
+{
+    padding: 8px 35px;
+    border:  solid 3px #00B284;
+}
+.btn-primary1:active
+{
+    border:  solid 2px #67D2B6;
+    padding: 9px 36px;
+    background-color: #67D2B6;
+    color: #EDFAF6;
+}
+.btn-primary1:disabled
+{
+    border:  solid 2px #A5E4D4;
+    color: #A4E4D3;
+    padding: 9px 36px;
+}
+.btn-primary1-hover
+{
+    border:  solid 3px #00B284;
+    padding: 8px 35px;
+    background-color: #FFFFFF;
+    color: #15B98F;
+}
+.btn-primary1-active
+{
+    border:  solid 2px #67D2B6;
+    padding: 9px 36px;
+    background-color: #67D2B6;
+    color: #EDFAF6;
+}
+.btn-primary1-disabled
+{
+    border:  solid 2px #A5E4D4;
+    padding: 9px 36px;
+    background-color: #FFFFFF;
+    color: #A4E4D3;
+}
+
+
+
+.btn-secondary1
+{
+    border: solid 2px #C5D3D8;
+    padding: 9px 36px;
+    background-color: #FFFFFF;
+    color: #7596A1;
+}
+.btn-secondary1:hover
+{
+    padding: 8px 35px;
+    border:  solid 3px #7F9EA8;
+}
+.btn-secondary1:active
+{
+    border:  solid 2px #E3EAEC;
+    background-color: #EDF1F3;
+    color: #9FB6BE;
+    padding: 9px 36px;
+}
+.btn-secondary1:disabled
+{
+    border:  solid 2px #F2F5F6;
+    color: #CBD8DC;
+    padding: 9px 36px;
+}
+.btn-secondary1-hover
+{
+    border:  solid 3px #7F9EA8;
+    padding: 8px 35px;
+    background-color: #FFFFFF;
+    color: #7596A1;
+}
+.btn-secondary1-active
+{
+    border:  solid 2px #E3EAEC;
+    padding: 9px 36px;
+    background-color: #EDF1F3;
+    color: #9FB6BE;
+}
+.btn-secondary1-disabled
+{
+    border: solid 2px #F2F5F6;
+    padding: 9px 36px;
+    background-color: #FFFFFF;
+    color: #CBD8DC;
+}
+
+
+.btn-destructive1
+{
+    border: solid 2px #F5B9A7;
+    padding: 9px 36px;
+    background-color: #FFFFFF;
+    color: #EF8768;
+}
+.btn-destructive1:hover
+{
+    padding: 8px 35px;
+    border: solid 3px #EF8D70;
+}
+.btn-destructive1:active
+{
+    background-color: #F4A892;
+    border:  solid 2px #F4A892;
+    color: #FFFEFE;
+    padding: 9px 36px;
+}
+.btn-destructive1:disabled
+{
+    border:  solid 2px #FADCD3;
+    color: #F7C2B2;
+    padding: 9px 36px;
+}
+.btn-destructive1-hover
+{
+    border: solid 3px #EF8D70;
+    padding: 8px 35px;
+    background-color: #FFFFFF;
+    color: #EF8768;
+}
+.btn-destructive1-active
+{
+    border:  solid 2px #F4A892;
+    padding: 9px 36px;
+    background-color: #F4A892;
+    color: #FFFEFE;
+}
+.btn-destructive1-disabled
+{
+    border:  solid 2px #FADCD3;
+    padding: 9px 36px;
+    background-color: #FFFFFF;
+    color: #F7C2B2;
+}
+
+
+.btn-primarybg
+{
+    border-bottom: inset #FFFFFF;
+    background-color: #FFFFFF;
+    color: #49C8A7;
+}
+.btn-primarybg:hover
+{
+    border-bottom: inset #99E0CE;
+
+}
+.btn-primarybg:active
+{
+    border-bottom: inset #BEEBDF;
+    background-color: #BEEBDF;
+    color: #13B78D;
+}
+.btn-primarybg:disabled
+{
+    border-bottom: inset #7CD8C0;
+    background-color: #7CD8C0;
+    color: #1ABB91;
+}
+
+.btn-primarybg-hover
+{
+    border-bottom: inset #99E0CE;
+    background-color: #FFFFFF;
+    color: #49C8A7;
+
+}
+.btn-primarybg-active
+{
+    border-bottom: inset #BEEBDF;
+    background-color: #BEEBDF;
+    color: #13B78D;
+}
+.btn-primarybg-disabled
+{
+    border-bottom: inset #7CD8C0;
+    background-color: #7CD8C0;
+    color: #1ABB91;
+}
+
+
+
+.btn-secondarybg
+{
+    border: solid 2px #90DDC9;
+    padding: 9px 36px;
+    background-color: #26BE96;
+    color: #F6FCFB;
+}
+.btn-secondarybg:hover
+{
+    padding: 8px 35px;
+    border:  solid 3px #E9F8F4;
+}
+.btn-secondarybg:active
+{
+    border:  solid 2px #BEEBDF;
+    background-color: #BEEBDF;
+    color: #26BE96;
+    padding: 9px 36px;
+}
+.btn-secondarybg:disabled
+{
+    border: solid 2px #89DBC6;
+    padding: 9px 36px;
+    color: #89DBC6;
+}
+
+.btn-secondarybg-hover
+{
+    border:  solid 3px #E9F8F4;
+    padding: 8px 35px;
+    background-color: #26BE96;
+    color: #F6FCFB;
+}
+.btn-secondarybg-active
+{
+    border:  solid 2px #BEEBDF;
+    background-color: #BEEBDF;
+    color: #26BE96;
+    padding: 9px 36px;
+}
+.btn-secondarybg-disabled
+{
+    border: solid 2px #89DBC6;
+    padding: 9px 36px;
+    background-color: #26BE96;
+    color: #89DBC6;
+}
+
+
+section {
+    display: flex;
+    gap: 0.1rem;
+  }
+div
+{
+  margin: 1px;
+  font-weight: 600;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+span
+{
+    margin: 1px;
+    padding: 15px 20px;
+    color: #CAD7DB;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    color: #4F5053;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 20px 5px 20px;
+}
+.align
+{
+    text-align: center;
+
+}
+.al
+{
+    text-align: left;
+    padding: 20px;
+}
+#bg
+{
+    background-color: #26BE96;
+}
