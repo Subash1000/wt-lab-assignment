@@ -1,5 +1,5 @@
 5th May 2022 - 12th May 2022
-![screenshot]
+![screenshot](https://github.com/Subash1000/wt-lab-assignment/blob/main/Lab/Lab3/colors.jpeg)
 
 
 
