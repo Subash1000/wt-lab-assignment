@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'aileronblack';
+    src: url('Aileron-Black-webfont.eot');
+    src: url('Aileron-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Black-webfont.woff2') format('woff2'),
+         url('Aileron-Black-webfont.woff') format('woff'),
+         url('Aileron-Black-webfont.ttf') format('truetype'),
+         url('Aileron-Black-webfont.svg#aileronblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html{
+    font-family: 'amblebold';
+}
+p,div{
+    display: inline-block;
+}
+.al{
+   
+    position: absolute;
+    margin: auto;
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 150px;
+}
+
+.float-left{
+    float:left; 
+}
+.float-right{
+    float:right;
+}
+
+.ppp{
+    width: 500px;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.7em 1.2em;
+    margin-right: .6em;
+}
+#btn{
+    margin-top: 3em;
+}
+#gbh{
+    background-color: hsl(243,75%,59%);
+    color: hsl(242,76%,87%);
+}
+#cs{
+    background-color: hsl(226,94%,94%);
+    color: hsl(243,59%,58%);
+}
+#f{
+    color: hsl(243,75%,59%);
+    font-size: 50px;
+    font-weight: bolder;
+    margin-right: 0.55em;
+    margin-top: -.5em;
+}
+#pnf{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: -0.5em 0em;
+}
+#pc{
+    color: hsl(219,7%,63%);
+    margin: .8em 0em;
+}
+#f,#pnf,#pc,a{
+    font-family: 'aileronblack';
+}
+#line{
+    position: relative;
+    background-color: hsl(225,12%,93%);
+    padding: 3em 0.05em ;
+    margin-right: 30px;
+    margin-top: -.9em;
+    height: inherit;
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'aileronblack';
+    src: url('Aileron-Black-webfont.eot');
+    src: url('Aileron-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Black-webfont.woff2') format('woff2'),
+         url('Aileron-Black-webfont.woff') format('woff'),
+         url('Aileron-Black-webfont.ttf') format('truetype'),
+         url('Aileron-Black-webfont.svg#aileronblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+    font-family: 'aileronblack';
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+#brand
+{
+    color: hsl(215,28%,17%);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 1.3em;
+    margin-left:1em;
+    width: 10%;
+}
+.nav{
+    margin-bottom: 80px;
+}
+.home{
+    display: inline-block;
+    width: 70%;
+    margin:3em auto ;
+}
+.center{
+    margin: auto;
+    width: 70%;
+}
+#contact{
+    text-decoration: none;
+    border: 1px solid hsl(216,14%,93%);
+    border-radius: 7px;
+    padding: 1em 2em;
+    color: hsl(217,14%,33%);
+    width: 6%;
+    margin: 2em;
+
+}
+.btn{
+    margin: 2em ;
+    color: hsl(217,10%,41%);
+    font-size: 17px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+
+#easy{
+    color: hsl(215,28%,17%);
+    font-size: 40px;
+    width: min-content;
+    min-width: 500px;
+    margin-left: .8em;
+}
+.im{
+    width: 50%;
+    border-radius: 8px;
+}
+.inline{
+    display: inline;
+    margin-left: 13em;
+}
+.ch{
+    color: hsl(217,14%,33%);
+    margin-bottom: 1em;
+    margin-left: 1.8em;
+
+}
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: .8em;
+   }
+
+
+
+input{
+    color: hsl(219,11%,69%);
+    border: none;
+    border-radius: 7px;
+    height: 50px;
+    width: 99%;
+}
+input[type="text"]{
+    color: #000;
+}
+
+#join{
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    top: 3px;
+    border-radius: 7px;
+    background-color: hsl(217,91%,60%);
+    color: #FFF;
+    padding: .85em 1.2em;
+
+
+}
+#ej{
+    display: inline-block;
+    border: 1px solid hsl(219,11%,69%);
+    border-radius: 7px;
+    position: absolute;
+    width: 26%;
+    margin-top: 7em;
+    margin-left: 1.8em;
+}
+svg{
+    height: 20px;
+    width: 20px;
+    padding: 0em;
+    color: skyblue;
+    display: inline-block ;
+    vertical-align: middle;
+    margin-right: 10px;
+}

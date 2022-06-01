@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'aileronblack';
+    src: url('Aileron-Black-webfont.eot');
+    src: url('Aileron-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Black-webfont.woff2') format('woff2'),
+         url('Aileron-Black-webfont.woff') format('woff'),
+         url('Aileron-Black-webfont.ttf') format('truetype'),
+         url('Aileron-Black-webfont.svg#aileronblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.al{
+   
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 160px;
+    min-width: 300px;
+
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.7em 1.2em;
+    margin-right: .6em;
+    font-family: 'aileronblack';
+}
+#join{
+    font-size: 40px;
+    font-weight: bolder;
+    color: hsl(217,19%,27%);
+    font-family: 'aileronblack';
+}
+#bbn{
+    background-color: hsl(221,83%,54%);
+    color: hsl(220,86%,97%);
+}
+#saj{
+    border: 1px solid hsl(216,13%,92%);
+    color: hsl(219,9%,42%);
+}
