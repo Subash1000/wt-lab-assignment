@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'aileronblack';
+    src: url('Aileron-Black-webfont.eot');
+    src: url('Aileron-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Black-webfont.woff2') format('woff2'),
+         url('Aileron-Black-webfont.woff') format('woff'),
+         url('Aileron-Black-webfont.ttf') format('truetype'),
+         url('Aileron-Black-webfont.svg#aileronblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    font-family: 'aileronblack';
+}
+.nav{
+    margin: 0em -.5em 2em -.5em;
+    padding-bottom: .5em;
+    position: absolute;
+    width: min-content;
+    min-width: 100%;
+    height: min-content;
+    min-height: 30px;
+    top:0;
+    box-shadow: 0px 2px 10px hsl(240deg 3% 88% / 0.7);
+    padding-bottom: 1em;
+           
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 1.1em 1em 0em 1em;
+    background-color: hsl(243,75%,59%);
+    -webkit-mask: url(./assets/task-nav-logo.svg) no-repeat center;
+    mask: url(./assets/task-nav-logo.svg) no-repeat center;
+}
+.wt{
+    font-size: 30px;
+    font-weight: bold;
+    color: hsl(240,3%,17%);
+    margin-top: .6em;
+    margin-left: 0em;
+}
+.logosection{
+    display: inline-block;
+    position: absolute;
+    margin-right: 2em;
+}
+.bell{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1em 6em 1em 1em;
+    color: grey;
+}
+.search{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0.2em -8em 0.1em .5em;
+   
+}
+
+.sec{
+    display: inline-block;
+    width: min-content;
+    min-width: 570px;
+    margin: 0.2em 10em .2em 15em;
+    padding-top: -1em;
+
+}
+.btn{
+    text-decoration: none;
+    color: hsl(223,7%,63%);
+    margin-bottom: -2em;
+    font-size: 17px;
+    width: 100px;
+    padding: 1.4em 1em 1em 1em;
+   justify-content: center;
+    
+}
+a{
+    justify-content: center;
+}
+.btn:hover{
+    color: hsl(218,8%,38%);
+    border-bottom: 3px solid hsl(239,84%,67%);
+}
+.profile{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    margin: 0em 1.3em 1em 1em;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+
+
+input{
+    color: hsl(218,10%,69%);
+    border: none;
+    border-radius: 7px;
+    height: 15px;
+    width: 300px;
+    padding: .5em 1em .5em 3.5em;
+    font-size: 17px;
+}
+input[type="text"]{
+    color: white;
+}
+
+.searchsection{
+    display: inline-block;
+    border: 1px solid hsl(219,11%,69%);
+    border-radius: 7px;
+    margin:1.2em 1em .1em 1em;
+}
+.lo{
+    width: 40px;
+    height: 40px;
+    margin: 1.1em 1em 0em 1em;
+   
+    
+
+}
+.bell{
+
+}
