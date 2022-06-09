@@ -10,5 +10,5 @@
 ### [Lab1](https://github.com/Subash1000/wt-lab-assignment/tree/main/Lab/lab1)
 ### [Lab2](https://github.com/Subash1000/wt-lab-assignment/tree/main/Lab/Lab2)
 ### [Lab3](https://github.com/Subash1000/wt-lab-assignment/tree/main/Lab/Lab3)
-### [Lab4](https://github.com/Subash1000/wt-lab-assignment/tree/main/Lab/Lab4)
-### [Lab5](https://github.com/Subash1000/wt-lab-assignment/tree/main/Lab/lab5)
+### [lab4](https://github.com/Subash1000/wt-lab-assignment/tree/main/Lab/lab4)
+### [lab5](https://github.com/Subash1000/wt-lab-assignment/tree/main/Lab/lab5)
