@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+<body>
+    <script>
+        let data = prompt(`Enter Number`);
+        let original = data;
+        let pal=0;
+        let r=0;
+        while (data != 0) 
+        {
+            r = data % 10;
+            pal = pal * 10 + r;
+            data =parseInt(data / 10);
+        }
+        if(original==pal)
+        {
+            console.log("Palindrome.");
+        }
+        else console.log("NOT Palindrome");
+
+    </script> 
+</body>
+</html>
