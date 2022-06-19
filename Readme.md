@@ -4,6 +4,7 @@
 ### [Assignment 4 ](https://github.com/Subash1000/wt-lab-assignment/tree/main/Assignments/Assignment%204)
 ### [Assignment 5](https://github.com/Subash1000/wt-lab-assignment/tree/main/Assignments/Assignment%205)
 ### [Assignment 6](https://github.com/Subash1000/wt-lab-assignment/tree/main/Assignments/Assignment%206)
+### [Assignment 7](https://github.com/Subash1000/wt-lab-assignment/tree/main/Assignments/Assignment%207)
 
 *** 
 ## Labs:
