@@ -44,7 +44,7 @@ echo($odd);
 ### Example :
 ```PHP
 <?php
-$age= array("Deku" => 16, "Tyson" => 22, "Mark" => 25);
+$age= array("Subash" => 16, "Suman" => 22, "Anish" => 25);
 asort($age);
 echo($age);
 ?>
@@ -57,7 +57,7 @@ echo($age);
 ### Example :
 ```PHP
 <?php
-$rollno= array("Deku" => 1, "Tyson" => 22, "Mark" => 12);
+$rollno= array("Subash" => 1, "Suman" => 22, "Anish" => 12);
 arsort($rollno);
 echo($rollno);
 ?>
@@ -70,7 +70,7 @@ echo($rollno);
 ### Example :
 ```PHP
 <?php
-$height= array("Deku" => 140, "Tyson" => 165, "Mark" => 132);//height in centimeters
+$height= array("Subash" => 140, "Suman" => 165, "Anish" => 132);//height in centimeters
 ksort($height);
 echo($height);
 ?>
@@ -83,7 +83,7 @@ echo($height);
 ### Example :
 ```PHP
 <?php
-$address= array("Deku" => "Shibuya", "Tyson" => "Kyoto", "Mark" => "Tokyo");
+$address= array("Subash" => "Fulbari", "Suman" => "Mahendra Pool", "Anish" => "Kathmandu");
 krsort($address);
 echo($address);
 ?>
