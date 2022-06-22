@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    background-color: black;
+}
+.container1{
+   
+    height: 500px;
+    width: 50%;
+    background-color:white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1 rem;
+}
+
+
+.draggable {
+  padding: 1rem;
+  background-color: blanchedalmond;
+  border: 1px solid whitesmoke;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
