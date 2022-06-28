@@ -97,8 +97,8 @@ $result = $conn ->query($sql);
 				<td><?= $student['hobbies']; ?></td>
 				<td><?= $student['nationality'] ;?></td>
 				<td>
-					<a href="#">Edit</a>
-					<a href="#">Delete</a>
+				<a href="<?= './edit/?id=' . $student['id'] ?>">Edit</a>
+                 <a href="#" data-id="<?= $student['id'] ?>" class='delete'>Delete</a>
 				</td>
 			</tr>
 		<?php
