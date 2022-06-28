@@ -1,0 +1,40 @@
+Database Management System
+
+Types:
+
+
+1) SQL Based
+--- Common language - SQL language
+--- Data are represented in table.
+--- Example : MySQL , SQL server, Postgres
+
+2) No SQL Based
+--- No SQL Language
+--- Data are represented in Javascript like object
+--- Example : Mongo DB
+
+SQL Command Types:
+
+1) DDL (Data Definition Language)
+--- Create Table , Create Database , Drop Table, Drop Database
+
+2)DQL(D)
+
+
+
+
+
+
+
+
+
+
+Command list:
+-SHOW DATABASES;
+-CREATE DATABASE <database_namw>;
+-USE <database_name>;
+-DROP DATABASE <database_name>;
+
+-CREATE TABLE<table_name>(
+    <column_name> <data_type> []
+)
