@@ -285,11 +285,13 @@ a {
 }
 
 /* End Keyframes */
-.contact{
+/* .contact{
     height: 833px;
     background-color: #f2f6f4;
 
-}
+} */
+
+
 .text-center{
     text-align: center;
     padding-top: 20px;
@@ -297,6 +299,15 @@ a {
     font-family: 'Montserrat', sans-serif;
 
 }
+.about{
+    text-align: center;
+    
+    font-size: 35px;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+
 .form{
     max-width: 1200px;
     margin:25px auto;
@@ -358,5 +369,3 @@ a {
     opacity: 0;
    }
 }
-
-  
