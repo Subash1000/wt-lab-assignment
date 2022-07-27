@@ -1,0 +1,28 @@
+ first :domain registration(hosting/protocol)
+
+ 2.external/internal inline css
+
+	form 
+
+	difference between:
+	 block/ inline
+
+	div/ span
+
+	visibility ( hidden/ none)
+
+
+
+
+july 1st - aug 20 ( own website)
+
+website - about us (dynamic)
+contact us -  afulai email jane , database ma save hune ,login page huna parne ( forget password , change password)
+
+contact me - form rakhdine .( name, email , address , message jane)
+
+responsive website.
+
+
+
+

@@ -12,7 +12,7 @@ $hobbies = implode(",", $_POST['hobbies'] ?? []);
 $nationality=$_POST['nationality'];
 $sql = "INSERT INTO students (name,email,password,dob,favorite_color,weight,gender,hobbies,nationality)
  VALUES ('$name','$email','$password','$dob','$favorite_color',$weight,'$gender','$hobbies','$nationality') ";
- die($sql);
+ 
 
  if ($conn -> query($sql) == TRUE){
    header("location:../?success=success");
